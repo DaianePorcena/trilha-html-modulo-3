@@ -5,6 +5,10 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+
+ul li{
+    margin-top: 1em;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -22,10 +26,19 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: center;
 }
+
+.footer ul li{
+    display: inline;
+}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
@@ -35,4 +48,26 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+
+table{
+    margin-bottom: 15px;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table thead th{
+    background-color: #d0dfec;
+    border: 1px solid rgb(199, 195, 195);
+}
+
+table thead tr:nth-child(even) th{
+    background-color: #d1dbdf;
+}
+
+table tbody td{
+    background-color: #eaecf0;
+    color: #2848fd;
+    border: 1px solid rgb(199, 195, 195);
 }
